@@ -15,7 +15,7 @@ import pandas as pd
 
 # Importing the dataset
 
-dataset = pd.read_csv('/Users/Alien/Desktop/Machine+Learning+A-Z+(Codes+and+Datasets)/Machine Learning A-Z (Codes and Datasets)/Part 2/Section 5 - Multiple Linear Regression/Python/50_Startups.csv')
+dataset = pd.read_csv('Assets/50_Startups.csv')
 
 x = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values

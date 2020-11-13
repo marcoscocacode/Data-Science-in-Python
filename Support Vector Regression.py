@@ -15,7 +15,7 @@ import pandas as pd
 
 # Impoting dataset
 
-dataset = pd.read_csv('/Users/Alien/Desktop/Machine+Learning+A-Z+(Codes+and+Datasets)/Machine Learning A-Z (Codes and Datasets)/Part 2/Section 6 - Polynomial Regression/Python/Position_Salaries.csv')
+dataset = pd.read_csv('Assets/Position_Salaries.csv')
 
 x = dataset.iloc[:, 1:-1].values
 y = dataset.iloc[:, -1].values

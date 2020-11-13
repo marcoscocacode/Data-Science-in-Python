@@ -15,7 +15,7 @@ import pandas as pd
 
 # Importing the dataset
 
-dataset = pd.read_csv('/Users/Alien/Desktop/Machine+Learning+A-Z+(Codes+and+Datasets)/Machine Learning A-Z (Codes and Datasets)/Part 2/Section 4 - Simple Linear Regression/Python/Salary_Data.csv')
+dataset = pd.read_csv('Assets/Salary_Data.csv')
 
 x = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
@@ -52,51 +52,3 @@ plt.title('Salary vs Exp (Test Set)')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

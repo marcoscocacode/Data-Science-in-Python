@@ -13,7 +13,7 @@ import pandas as pd
 
 # Importing the dataset
 
-dataset = pd.read_csv('/Users/Alien/Desktop/Machine+Learning+A-Z+(Codes+and+Datasets)/Machine Learning A-Z (Codes and Datasets)/Part 1/Section 2/Python/Data.csv')
+dataset = pd.read_csv('Assets/Data.csv')
 
 x = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
@@ -71,51 +71,3 @@ x_test[:, 3:] + sc.fit_transform(x_test[:, 3:])
 
 print(x_train)
 print(x_test)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
